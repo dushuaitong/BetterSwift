@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040936E5274FBC0400A2FF0C /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 040936E4274FBC0400A2FF0C /* Sources */; };
 		0492C435274FB9A7006E0624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C434274FB9A7006E0624 /* AppDelegate.swift */; };
 		0492C437274FB9A7006E0624 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C436274FB9A7006E0624 /* SceneDelegate.swift */; };
 		0492C439274FB9A7006E0624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C438274FB9A7006E0624 /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		0492C44C274FB9A9006E0624 /* BetterSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C44B274FB9A9006E0624 /* BetterSwiftTests.swift */; };
 		0492C456274FB9AA006E0624 /* BetterSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C455274FB9AA006E0624 /* BetterSwiftUITests.swift */; };
 		0492C458274FB9AA006E0624 /* BetterSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C457274FB9AA006E0624 /* BetterSwiftUITestsLaunchTests.swift */; };
-		0492C465274FB9C7006E0624 /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 0492C464274FB9C7006E0624 /* Sources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040936E4274FBC0400A2FF0C /* Sources */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sources; sourceTree = SOURCE_ROOT; };
 		0492C431274FB9A7006E0624 /* BetterSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0492C434274FB9A7006E0624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0492C436274FB9A7006E0624 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		0492C451274FB9A9006E0624 /* BetterSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0492C455274FB9AA006E0624 /* BetterSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSwiftUITests.swift; sourceTree = "<group>"; };
 		0492C457274FB9AA006E0624 /* BetterSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0492C464274FB9C7006E0624 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sources; path = ../../Sources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		0492C433274FB9A7006E0624 /* BetterSwift */ = {
 			isa = PBXGroup;
 			children = (
-				0492C464274FB9C7006E0624 /* Sources */,
+				040936E4274FBC0400A2FF0C /* Sources */,
 				0492C434274FB9A7006E0624 /* AppDelegate.swift */,
 				0492C436274FB9A7006E0624 /* SceneDelegate.swift */,
 				0492C438274FB9A7006E0624 /* ViewController.swift */,
@@ -237,7 +237,7 @@
 				0492C441274FB9A9006E0624 /* LaunchScreen.storyboard in Resources */,
 				0492C43E274FB9A9006E0624 /* Assets.xcassets in Resources */,
 				0492C43C274FB9A7006E0624 /* Main.storyboard in Resources */,
-				0492C465274FB9C7006E0624 /* Sources in Resources */,
+				040936E5274FBC0400A2FF0C /* Sources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
